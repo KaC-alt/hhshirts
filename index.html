@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HHshirts</title>
+<meta name="description" content="HHshirts leverer skjorter og bluser til virksomheder i Danmark. Herre og dame, alle størrelser og farver. Få et tilbud.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22 fill=%22none%22 stroke=%22%23B08D57%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M15.5 10.5 C18 6.5 30 6.5 32.5 10.5 C29.5 13.6 18.5 13.6 15.5 10.5 Z%22 stroke-width=%223%22/%3E%3Cpath d=%22M15.5 10.5 L10 12.6 L14.3 29 L24 17.6 Z M32.5 10.5 L38 12.6 L33.7 29 L24 17.6 Z%22 fill=%22%23B08D57%22 stroke=%22none%22/%3E%3Cpath d=%22M24 17.6 V44%22 stroke-width=%223%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#forside" aria-label="HHshirts"><span class="mark"><svg viewBox="0 0 48 48" width="30" height="30" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path d="M15.5 10.5 C18 6.5 30 6.5 32.5 10.5 C29.5 13.6 18.5 13.6 15.5 10.5 Z" stroke-width="2.4"/><path d="M15.5 10.5 L10 12.6 L14.3 29 L24 17.6 Z M32.5 10.5 L38 12.6 L33.7 29 L24 17.6 Z" fill="currentColor" stroke="none"/><path d="M24 17.6 V44" stroke-width="2.4"/><circle cx="24" cy="31" r="1.8" fill="currentColor" stroke="none"/><circle cx="24" cy="39" r="1.8" fill="currentColor" stroke="none"/></svg></span>HHshirts</a>
+    <nav aria-label="Hovedmenu">
+      <a href="#forside" data-i18n="nav.home">Forside</a>
+      <a href="#kollektion" data-i18n="nav.collection">Kollektion</a>
+      <a href="om-os.html" data-i18n="nav.about">Om os</a>
+      <a href="#tilbud" data-i18n="nav.quote">Få et tilbud</a>
+    </nav>
+    <div class="tools">
+      <button class="iconbtn" id="langBtn" aria-label="Switch to English">EN</button>
+      <button class="iconbtn" id="themeBtn" aria-label="Skift tema">◐</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<div class="view" data-view="home">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <div class="dealer" data-i18n="hero.dealer">Til virksomheder i hele Danmark</div>
+        <h1 data-i18n="hero.title">Skjorter til hele holdet.</h1>
+        <p data-i18n="hero.text">Vi leverer skjorter og bluser til virksomheder. Herre og dame, alle pasformer, størrelser og farver. Fortæl os hvad I skal bruge, så sender vi et samlet tilbud.</p>
+        <a class="cta" href="#tilbud" data-i18n="hero.cta">Få et tilbud</a>
+        <a class="cta ghost" href="#kollektion" data-i18n="hero.browse">Se kollektionen</a>
+      </div>
+      <div class="duo" aria-hidden="true">
+        <figure><img src="img/01.jpg" alt=""></figure>
+        <figure><img src="img/21.jpg" alt=""></figure>
+      </div>
+    </div>
+  </div>
+
+  <section id="saadan">
+    <div class="wrap">
+      <h2 data-i18n="how.title">Sådan foregår det</h2>
+      <div class="steps">
+        <div class="step"><b>1</b><h3 data-i18n="how.s1">Send en forespørgsel</h3><p data-i18n="how.s1t">Vælg modeller og fortæl os antal, størrelser og hvornår I skal bruge dem.</p></div>
+        <div class="step"><b>2</b><h3 data-i18n="how.s2">Få et tilbud</h3><p data-i18n="how.s2t">Vi vender tilbage med pris, levering og eventuelle alternativer.</p></div>
+        <div class="step"><b>3</b><h3 data-i18n="how.s3">Bekræft ordren</h3><p data-i18n="how.s3t">Når størrelser og antal er på plads, bestiller vi hjem til jer.</p></div>
+        <div class="step"><b>4</b><h3 data-i18n="how.s4">Levering</h3><p data-i18n="how.s4t">Skjorterne leveres samlet, sorteret efter medarbejder hvis I ønsker det.</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="home-cta">
+    <div class="wrap">
+      <div class="band">
+        <div>
+          <h2 data-i18n="home.bandTitle">Klar til at klæde holdet på?</h2>
+          <p data-i18n="home.bandText">Se kollektionen og vælg de modeller I kan lide, eller send os en forespørgsel med det samme.</p>
+        </div>
+        <div>
+          <a class="cta" href="#kollektion" data-i18n="hero.browse">Se kollektionen</a>
+          <a class="cta ghost mail" href="#tilbud" data-i18n="hero.cta">Få et tilbud</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="view" data-view="kollektion">
+  <section id="kollektion">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <h2 data-i18n="col.title">Kollektion</h2>
+          <p class="lede" data-i18n="col.lede">Et udvalg fra vores sortiment. Markér de modeller I er interesserede i, så følger de med jeres forespørgsel.</p>
+        </div>
+      </div>
+      <div class="filters" role="group" aria-label="Køn" id="genderFilters"></div>
+      <div class="filters" role="group" aria-label="Farve" id="colorFilters"></div>
+      <p class="count" id="count" aria-live="polite"></p>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section id="storrelser" class="sizes">
+    <div class="wrap">
+      <h2 data-i18n="size.title">Alle størrelser</h2>
+      <p class="lede" data-i18n="size.lede">Hele holdet skal kunne bære den samme skjorte. Derfor dækker sortimentet et bredt spænd af størrelser og pasformer.</p>
+      <div class="sgrid">
+        <div class="sbox"><h3 data-i18n="size.men">Herre</h3><div class="big">36–54</div><p data-i18n="size.menText">Halsvidde i cm. Pasformer: X-Slim, Slim, Shaped, Regular og Comfort. Udvalgte modeller fås med ekstra lange ærmer.</p></div>
+        <div class="sbox"><h3 data-i18n="size.women">Dame</h3><div class="big">32–54</div><p data-i18n="size.womenText">Europæiske størrelser. Pasformer fra slim til regular og A-line.</p></div>
+        <div class="sbox"><h3 data-i18n="size.colours">Farver</h3><div class="big" data-i18n="size.coloursBig">Hvid til sort</div><p data-i18n="size.coloursText">Hvid, ecru, lyseblå, mellemblå, mørkeblå, sort samt striber og tern. Spørg efter en bestemt farve, hvis I ikke ser den her.</p></div>
+      </div>
+    </div>
+  </section>
+
+
+</div>
+<div class="view" data-view="tilbud">
+  <section id="tilbud" class="quote">
+    <div class="wrap">
+      <div>
+        <h2 data-i18n="q.title">Få et tilbud</h2>
+        <p class="lede" data-i18n="q.lede">Jo mere I fortæller, jo mere præcist bliver tilbuddet. Er I i tvivl om noget, så skriv det bare i beskeden.</p>
+        <ul class="contact-list">
+          <li><a href="mailto:kontakt@hhshirts.dk">kontakt@hhshirts.dk</a></li>
+        </ul>
+      </div>
+      <form id="qform" novalidate>
+        <div class="full">
+          <label data-i18n="q.models">Valgte modeller</label>
+          <div class="picked" id="picked"></div>
+        </div>
+        <div><label for="company" data-i18n="q.company">Virksomhed</label><input id="company" name="company" autocomplete="organization" required><div class="err" id="e-company"></div></div>
+        <div><label for="name" data-i18n="q.name">Kontaktperson</label><input id="name" name="name" autocomplete="name" required><div class="err" id="e-name"></div></div>
+        <div><label for="email" data-i18n="q.email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="navn@firma.dk"><div class="err" id="e-email"></div></div>
+        <div><label for="phone" data-i18n="q.phone">Telefon</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+        <div><label for="qty" data-i18n="q.qty">Antal skjorter (cirka)</label><input id="qty" name="qty" type="number" min="1" inputmode="numeric" required><div class="err" id="e-qty"></div></div>
+        <div><label for="deadline" data-i18n="q.deadline">Skal bruges senest</label><input id="deadline" name="deadline" type="date"></div>
+        <div class="full"><label for="mix" data-i18n="q.mix">Fordeling</label>
+          <select id="mix" name="mix">
+            <option value="mixed" data-i18n="q.mixMixed">Både herre og dame</option>
+            <option value="men" data-i18n="q.mixMen">Kun herre</option>
+            <option value="women" data-i18n="q.mixWomen">Kun dame</option>
+          </select></div>
+        <div class="full"><label for="msg" data-i18n="q.msg">Størrelser og andre ønsker</label><textarea id="msg" name="msg" data-i18n-ph="q.msgPh" placeholder="F.eks. 8 herre i str. 40–43, 6 dame i str. 36–40, hvid og lyseblå."></textarea></div>
+        <input class="hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="full"><button class="cta" type="submit" data-i18n="q.send">Send forespørgsel</button></div>
+        <div class="done" id="done" role="status" hidden></div>
+      </form>
+    </div>
+  </section>
+</div>
+</main>
+<a class="pickbar" id="pickbar" href="#tilbud" hidden></a>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr"></span> HHshirts · kontakt@hhshirts.dk</span>
+    <span data-i18n="foot.credit">Skjorter og bluser til virksomheder.</span>
+  </div>
+</footer>
+
+<script>
+const FORM_ENDPOINT = ""; // Indsæt Formspree/Web3Forms-URL her. Tom = åbner e-mail i stedet.
+
+const COLORS = {
+  white:{da:"Hvid",en:"White",hex:"#FFFFFF"}, ecru:{da:"Ecru",en:"Ecru",hex:"#EFE6D2"},
+  light:{da:"Lyseblå",en:"Light blue",hex:"#BFD4EE"}, mid:{da:"Mellemblå",en:"Medium blue",hex:"#6D93C7"},
+  dark:{da:"Mørkeblå",en:"Dark blue",hex:"#1F2F57"}, black:{da:"Sort",en:"Black",hex:"#111111"},
+  pattern:{da:"Striber og tern",en:"Stripes and checks",hex:"repeating-linear-gradient(90deg,#BFD4EE 0 3px,#fff 3px 6px)"}
+};
+
+const P = [
+  {g:"men",c:"white",fit:"Shaped",da:"Business-skjorte, dobbelt manchet",en:"Business shirt, double cuff",s:"37–46",img:"img/01.jpg"},
+  {g:"men",c:"white",fit:"Regular",da:"Business-skjorte med brystlomme",en:"Business shirt with chest pocket",s:"38–54",img:"img/02.jpg"},
+  {g:"men",c:"white",fit:"Regular",da:"Business-skjorte, klassisk",en:"Business shirt, classic",s:"38–54",img:"img/03.jpg"},
+  {g:"men",c:"white",fit:"Slim",da:"Business-skjorte, spread kent",en:"Business shirt, spread kent",s:"36–45",img:"img/04.jpg"},
+  {g:"men",c:"ecru",fit:"Regular",da:"Business-skjorte",en:"Business shirt",s:"38–54",img:"img/05.jpg"},
+  {g:"men",c:"light",fit:"Slim",da:"Business-skjorte",en:"Business shirt",s:"36–45",img:"img/06.jpg"},
+  {g:"men",c:"light",fit:"X-Slim",da:"Business-skjorte",en:"Business shirt",s:"36–44",img:"img/07.jpg"},
+  {g:"men",c:"mid",fit:"Slim",da:"Business-skjorte, struktur",en:"Business shirt, structured",s:"36–45",img:"img/08.jpg"},
+  {g:"men",c:"dark",fit:"Slim",da:"Business-skjorte",en:"Business shirt",s:"36–45",img:"img/09.jpg"},
+  {g:"men",c:"black",fit:"Shaped",da:"Business-skjorte, ekstra lange ærmer",en:"Business shirt, extra long sleeves",s:"37–46",img:"img/10.jpg"},
+  {g:"men",c:"black",fit:"Comfort",da:"Business-skjorte",en:"Business shirt",s:"39–54",img:"img/11.jpg"},
+  {g:"men",c:"pattern",fit:"Regular",da:"Stribet business-skjorte",en:"Striped business shirt",s:"38–48",img:"img/12.jpg"},
+  {g:"men",c:"pattern",fit:"Slim",da:"Stribet business-skjorte",en:"Striped business shirt",s:"36–45",img:"img/13.jpg"},
+
+  {g:"women",c:"white",fit:"Slim",da:"Body-bluse med stretch",en:"Stretch body blouse",s:"32–46",img:"img/14.jpg"},
+  {g:"women",c:"white",fit:"Slim",da:"Skjortebluse med indsnit",en:"Shirt blouse with darts",s:"32–48",img:"img/15.jpg"},
+  {g:"women",c:"white",fit:"Slim",da:"Twill-bluse med kalkkrave",en:"Chalice collar twill blouse",s:"32–48",img:"img/16.jpg"},
+  {g:"women",c:"white",fit:"Regular",da:"Skjortebluse, strygefri",en:"Shirt blouse, non-iron",s:"36–54",img:"img/17.jpg"},
+  {g:"women",c:"white",fit:"Regular",da:"Skjortebluse med indsnit",en:"Shirt blouse with darts",s:"34–54",img:"img/18.jpg"},
+  {g:"women",c:"white",fit:"Regular",da:"Bluse med standkrave",en:"Stand collar blouse",s:"34–48",img:"img/19.jpg"},
+  {g:"women",c:"ecru",fit:"Regular",da:"Skjortebluse i flydende stof",en:"Shirt blouse in fluid fabric",s:"36–48",img:"img/20.jpg"},
+  {g:"women",c:"light",fit:"A-line",da:"Oxford-skjortebluse",en:"Oxford shirt blouse",s:"34–44",img:"img/21.jpg"},
+  {g:"women",c:"light",fit:"Regular",da:"Skjortebluse i bomuldssatin",en:"Cotton satin shirt blouse",s:"34–48",img:"img/22.jpg"},
+  {g:"women",c:"pattern",fit:"Regular",da:"Stribet twill-skjortebluse",en:"Striped twill shirt blouse",s:"34–44",img:"img/23.jpg"},
+  {g:"women",c:"dark",fit:"Regular",da:"Denim-skjortebluse",en:"Denim shirt blouse",s:"34–44",img:"img/24.jpg"},
+  {g:"women",c:"black",fit:"A-line",da:"Twill-skjorte med lang manchet",en:"Twill shirt with long cuff",s:"34–50",img:"img/25.jpg"},
+  {g:"women",c:"black",fit:"Regular",da:"Viskosebluse med sløjfe",en:"Viscose blouse with bow",s:"36–54",img:"img/26.jpg"},
+  {g:"women",c:"pattern",fit:"Regular",da:"Ternet flonelsbluse",en:"Checked flannel blouse",s:"36–54",img:"img/27.jpg"}
+];
+
+const T = {
+  da:{},
+  en:{
+    "nav.collection":"Collection","nav.home":"Home","nav.sizes":"Sizes","nav.how":"How it works","home.bandTitle":"Ready to dress the team?","home.bandText":"Browse the collection and pick the styles you like, or send us a request straight away.","nav.about":"About us","nav.quote":"Get a quote",
+    "hero.dealer":"For businesses across Denmark","hero.title":"Shirts for the whole team.",
+    "hero.text":"We supply shirts and blouses to businesses. Men and women, every fit, size and colour. Tell us what you need and we'll send one complete quote.",
+    "hero.cta":"Get a quote","hero.browse":"Browse the collection",
+    "col.title":"Collection","col.lede":"A selection from our range. Mark the styles you're interested in and they'll be added to your request.",
+    "size.title":"Every size","size.lede":"The whole team should be able to wear the same shirt, so the range covers a wide span of sizes and fits.",
+    "size.men":"Men","size.menText":"Collar size in cm. Fits: X-Slim, Slim, Shaped, Regular and Comfort. Selected styles come with extra long sleeves.",
+    "size.women":"Women","size.womenText":"European sizes. Fits from slim to regular and A-line.",
+    "size.colours":"Colours","size.coloursBig":"White to black","size.coloursText":"White, ecru, light blue, medium blue, dark blue, black, plus stripes and checks. Ask for a specific colour if you don't see it here.",
+    "how.title":"How it works","how.s1":"Send a request","how.s1t":"Pick styles and tell us quantities, sizes and when you need them.",
+    "how.s2":"Get a quote","how.s2t":"We come back with price, delivery and any alternatives.","how.s3":"Confirm the order","how.s3t":"Once sizes and quantities are settled, we place the order.",
+    "how.s4":"Delivery","how.s4t":"Shirts arrive together, sorted by employee if you like.",
+    "q.title":"Get a quote","q.lede":"The more you tell us, the more precise the quote. If you're unsure about anything, put it in the message.",
+    "q.models":"Selected styles","q.company":"Company","q.name":"Contact person","q.email":"Email","q.phone":"Phone",
+    "q.qty":"Number of shirts (approx.)","q.deadline":"Needed by","q.mix":"Split","q.mixMixed":"Men and women","q.mixMen":"Men only","q.mixWomen":"Women only",
+    "q.msg":"Sizes and other wishes","q.msgPh":"E.g. 8 men's in size 40–43, 6 women's in size 36–40, white and light blue.","q.send":"Send request",
+    "foot.credit":"Shirts and blouses for businesses."
+  }
+};
+const UI = {
+  da:{all:"Alle",men:"Herre",women:"Dame",allC:"Alle farver",count:n=>`${n} modeller`,add:"Tilføj til forespørgsel",added:"Tilføjet ✓",none:"Ingen valgt endnu. Tilføj modeller fra kollektionen, eller beskriv dem i beskeden.",size:"Str.",remove:"Fjern",pick:n=>`${n} valgt · Gå til tilbud →`,
+       req:"Udfyld feltet",mail:"Skriv en gyldig e-mail",qty:"Skriv et antal",sent:"Tak. Vi har modtaget jeres forespørgsel og svarer hurtigst muligt.",mailto:"Jeres e-mailprogram åbner med forespørgslen udfyldt. Tryk send der.",fail:"Forespørgslen kunne ikke sendes. Skriv til kontakt@hhshirts.dk.",lang:"Switch to English",theme:"Skift tema"},
+  en:{all:"All",men:"Men",women:"Women",allC:"All colours",count:n=>`${n} styles`,add:"Add to request",added:"Added ✓",none:"Nothing selected yet. Add styles from the collection, or describe them in the message.",size:"Size",remove:"Remove",pick:n=>`${n} selected · Go to quote →`,
+       req:"Fill in this field",mail:"Enter a valid email",qty:"Enter a quantity",sent:"Thanks. We've received your request and will reply as soon as we can.",mailto:"Your email app will open with the request filled in. Press send there.",fail:"The request couldn't be sent. Email kontakt@hhshirts.dk.",lang:"Skift til dansk",theme:"Change theme"}
+};
+
+const store = { get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}} };
+let lang = store.get("hh-lang") || "da";
+let gender = "all", color = "all";
+const picked = new Set();
+
+const daText = {};
+document.querySelectorAll("[data-i18n]").forEach(el=>daText[el.dataset.i18n]=el.textContent);
+const daPh = {};
+document.querySelectorAll("[data-i18n-ph]").forEach(el=>daPh[el.dataset.i18nPh]=el.placeholder);
+
+function applyLang(){
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{el.textContent = lang==="en" ? (T.en[el.dataset.i18n]||daText[el.dataset.i18n]) : daText[el.dataset.i18n]});
+  document.querySelectorAll("[data-i18n-ph]").forEach(el=>{el.placeholder = lang==="en" ? T.en[el.dataset.i18nPh] : daPh[el.dataset.i18nPh]});
+  const lb = document.getElementById("langBtn"); lb.textContent = lang==="da"?"EN":"DA"; lb.setAttribute("aria-label",UI[lang].lang);
+  document.getElementById("themeBtn").setAttribute("aria-label",UI[lang].theme);
+  renderFilters(); renderGrid(); renderPicked();
+}
+
+function chip(label, pressed, onClick, swatch){
+  const b = document.createElement("button");
+  b.className="chip"; b.type="button"; b.setAttribute("aria-pressed",pressed);
+  if(swatch){const d=document.createElement("span");d.className="dot";d.style.background=swatch;b.appendChild(d)}
+  b.appendChild(document.createTextNode(label)); b.onclick=onClick; return b;
+}
+function renderFilters(){
+  const u=UI[lang], gf=document.getElementById("genderFilters"), cf=document.getElementById("colorFilters");
+  gf.replaceChildren(...["all","men","women"].map(g=>chip(u[g],gender===g,()=>{gender=g;renderFilters();renderGrid()})));
+  cf.replaceChildren(chip(u.allC,color==="all",()=>{color="all";renderFilters();renderGrid()}),
+    ...Object.entries(COLORS).map(([k,v])=>chip(v[lang],color===k,()=>{color=k;renderFilters();renderGrid()},v.hex)));
+}
+function renderGrid(){
+  const u=UI[lang], list=P.filter(p=>(gender==="all"||p.g===gender)&&(color==="all"||p.c===color));
+  document.getElementById("count").textContent=u.count(list.length);
+  document.getElementById("grid").replaceChildren(...list.map(p=>{
+    const i=P.indexOf(p), on=picked.has(i), el=document.createElement("article");
+    el.className="card";
+    const title = `${p[lang]}`;
+    el.innerHTML=`<div class="ph"><img loading="lazy" alt="${title}, ${COLORS[p.c][lang]}" src="${p.img}" onerror="this.remove()"></div>
+      <div class="body"><h3>${title}</h3>
+      <div class="meta">${u[p.g]} · ${p.fit} · ${COLORS[p.c][lang]}</div>
+      <div class="meta">${u.size} ${p.s}</div>
+      <div class="add"><button type="button" aria-pressed="${on}">${on?u.added:u.add}</button></div></div>`;
+    el.querySelector(".add button").onclick=()=>{on?picked.delete(i):picked.add(i);renderGrid();renderPicked()};
+    return el;
+  }));
+}
+function label(i){const p=P[i];return `${p[lang]} (${UI[lang][p.g]}, ${p.fit}, ${COLORS[p.c][lang]})`}
+function renderPicked(){
+  const pb=document.getElementById("pickbar");pb.hidden=!picked.size||current==="tilbud";pb.textContent=picked.size?UI[lang].pick(picked.size):"";
+  const box=document.getElementById("picked");
+  if(!picked.size){box.innerHTML=`<span class="empty">${UI[lang].none}</span>`;return}
+  box.replaceChildren(...[...picked].map(i=>{
+    const t=document.createElement("span");t.className="tag";t.textContent=label(i);
+    const x=document.createElement("button");x.type="button";x.textContent="×";x.setAttribute("aria-label",`${UI[lang].remove}: ${label(i)}`);
+    x.onclick=()=>{picked.delete(i);renderGrid();renderPicked()};t.appendChild(x);return t;
+  }));
+}
+
+document.getElementById("langBtn").onclick=()=>{lang=lang==="da"?"en":"da";store.set("hh-lang",lang);applyLang()};
+const root=document.documentElement, savedTheme=store.get("hh-theme");
+if(savedTheme) root.dataset.theme=savedTheme;
+document.getElementById("themeBtn").onclick=()=>{
+  const dark = root.dataset.theme ? root.dataset.theme==="dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  root.dataset.theme = dark?"light":"dark"; store.set("hh-theme",root.dataset.theme);
+};
+
+const form=document.getElementById("qform");
+form.querySelectorAll("input,select,textarea").forEach(f=>f.addEventListener("input",()=>{const e=document.getElementById("e-"+f.id);if(e)e.textContent=""}));
+form.onsubmit=async ev=>{
+  ev.preventDefault();
+  const u=UI[lang], f=form.elements; let ok=true;
+  const need=(id,msg,test)=>{if(!test(f[id].value.trim())){document.getElementById("e-"+id).textContent=msg;ok=false}};
+  need("company",u.req,v=>v); need("name",u.req,v=>v);
+  need("email",u.mail,v=>/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)); need("qty",u.qty,v=>+v>0);
+  if(!ok){form.querySelector(".err:not(:empty)").previousElementSibling.focus();return}
+  if(f._gotcha.value) return;
+  const models=[...picked].map(label).join("\n")||"-";
+  const data={Virksomhed:f.company.value,Kontaktperson:f.name.value,Email:f.email.value,Telefon:f.phone.value,Antal:f.qty.value,
+    Deadline:f.deadline.value,Fordeling:f.mix.options[f.mix.selectedIndex].text,Modeller:models,Besked:f.msg.value,Sprog:lang};
+  const done=document.getElementById("done");
+  if(FORM_ENDPOINT){
+    try{
+      const r=await fetch(FORM_ENDPOINT,{method:"POST",headers:{"Accept":"application/json","Content-Type":"application/json"},body:JSON.stringify(data)});
+      if(!r.ok) throw 0;
+      done.textContent=u.sent; done.hidden=false; form.reset(); picked.clear(); renderGrid(); renderPicked();
+    }catch(e){done.textContent=u.fail; done.style.color="var(--err)"; done.hidden=false}
+  } else {
+    const body=Object.entries(data).map(([k,v])=>`${k}: ${v}`).join("\n");
+    location.href=`mailto:kontakt@hhshirts.dk?subject=${encodeURIComponent("Tilbudsforespørgsel – "+f.company.value)}&body=${encodeURIComponent(body)}`;
+    done.textContent=u.mailto; done.hidden=false;
+  }
+};
+
+document.getElementById("yr").textContent=new Date().getFullYear();
+const VIEWS={forside:"home",top:"home",kollektion:"kollektion",storrelser:"kollektion",tilbud:"tilbud"};
+let current="home";
+function route(){
+  const h=location.hash.slice(1)||"forside", v=VIEWS[h]||"home";
+  current=v;
+  document.querySelectorAll(".view").forEach(el=>el.hidden=el.dataset.view!==v);
+  document.querySelectorAll("nav a").forEach(a=>{const t=a.getAttribute("href").slice(1);a.toggleAttribute("aria-current",VIEWS[t]===v);if(VIEWS[t]===v)a.setAttribute("aria-current","page")});
+  const target=document.getElementById(h);
+  if(target&&h!=="kollektion"&&h!=="tilbud"&&v!=="home") target.scrollIntoView(); else window.scrollTo(0,0);
+  renderPicked();
+}
+addEventListener("hashchange",route);
+applyLang();
+route();
+</script>
+</body>
+</html>
