@@ -148,7 +148,7 @@
 </footer>
 
 <script>
-const FORM_ENDPOINT = ""; // Indsæt Formspree/Web3Forms-URL her. Tom = åbner e-mail i stedet.
+const FORM_ENDPOINT = "https://formspree.io/f/xbgojogw";
 
 const COLORS = {
   white:{da:"Hvid",en:"White",hex:"#FFFFFF"}, ecru:{da:"Ecru",en:"Ecru",hex:"#EFE6D2"},
@@ -296,7 +296,7 @@ form.onsubmit=async ev=>{
   if(f._gotcha.value) return;
   const models=[...picked].map(label).join("\n")||"-";
   const data={Virksomhed:f.company.value,Kontaktperson:f.name.value,Email:f.email.value,Telefon:f.phone.value,Antal:f.qty.value,
-    Deadline:f.deadline.value,Fordeling:f.mix.options[f.mix.selectedIndex].text,Modeller:models,Besked:f.msg.value,Sprog:lang};
+    Deadline:f.deadline.value,Fordeling:f.mix.options[f.mix.selectedIndex].text,Modeller:models,Besked:f.msg.value,Sprog:lang,_replyto:f.email.value,_subject:"Tilbudsforespørgsel – "+f.company.value};
   const done=document.getElementById("done");
   if(FORM_ENDPOINT){
     try{
